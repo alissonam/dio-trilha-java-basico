@@ -1,18 +1,41 @@
-## Getting Started
+# ContaBanco - Cadastro de Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto em Java permite que o usuário insira dados de uma conta bancária via terminal e exibe uma mensagem confirmando o cadastro.
 
-## Folder Structure
+## Como Funciona
 
-The workspace contains two folders by default, where:
+O programa solicita os seguintes dados:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Número da Conta**
+- **Número da Agência**
+- **Nome do Cliente**
+- **Saldo Inicial**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Após a inserção, uma mensagem de confirmação com os dados fornecidos é exibida.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo de Execução
 
-## Dependency Management
+```shell
+Por favor, digite o número da Conta: 1021
+Por favor, digite o número da Agência: 067-8
+Por favor, digite o nome do Cliente: Mario Andrade
+Por favor, digite o saldo: 237.48
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Olá Mario Andrade, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo R$ 237.48 já está disponível para saque.
+```
+
+## Como Executar
+
+1. **Compilar o código:**
+   ```shell
+   javac ContaTerminal.java
+   ```
+2. **Executar o programa:**
+   ```shell
+   java ContaTerminal
+   ```
+
+## Tecnologias Utilizadas
+
+- **Java SE**
+- **Scanner (java.util.Scanner)** para entrada de dados
