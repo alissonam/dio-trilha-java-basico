@@ -30,11 +30,7 @@ Este projeto representa a modelagem UML e a implementação em Java do **compone
 
 ---
 
-## 🧩 Diagrama UML
-
-![Diagrama UML iPhone](./iphone-uml-diagram.png)
-
-### 🔗 Código em Mermaid
+## 🧩 Diagrama UML (Mermaid)
 
 ```mermaid
 classDiagram
