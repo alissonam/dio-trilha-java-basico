@@ -2,9 +2,9 @@
 
 Este projeto representa a modelagem UML e a implementação em Java do **componente iPhone**, com base no vídeo de lançamento do iPhone de 2007. O iPhone neste modelo possui funcionalidades de:
 
-- 🎵 Reprodutor Musical
-- 📞 Aparelho Telefônico
-- 🌐 Navegador na Internet
+- 🎵 Reprodutor Musical;
+- 📞 Aparelho Telefônico;
+- 🌐 Navegador na Internet.
 
 ---
 
